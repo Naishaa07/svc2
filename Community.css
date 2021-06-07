@@ -1,0 +1,86 @@
+#qwe:hover .tooltiptext{
+    visibility: visible;
+}
+ .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+.navbar{
+    background-color: #393e46;
+     margin-bottom: 10px;
+     width: 100%;
+     position: fixed;
+     top: 0;
+}
+a{
+    color: eeeeee; 
+    font-size: 25px;
+    margin-top: 0px;
+}
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color:#222831;
+    line-height: 3;
+    text-align: center;
+ }
+@media screen and (min-width:768px) {
+    #nav1, #nav2{
+        color: eeeeee; 
+        font-size: 25px;
+        padding-top: 37.5px;
+        padding-bottom: 37.5px;
+        background-color:#393e46
+    }
+    }
+
+#sub{
+    background-color: #222831;
+    color:#eeeeee;
+    width: 170px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#teachers button{
+    font-size: medium;
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    height: 50px;
+}
+label{
+    margin-left: 20px;
+    
+}
+.form-control{
+    background-color: #222831;
+    color:#eeeeee;
+    width: 170px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;    
+}
+#grades{
+    background-color: #222831;
+    color:#eeeeee;
+    width: 170px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
